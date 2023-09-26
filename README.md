@@ -6,7 +6,12 @@ We first combine active learning with the multi-class DDIs prediction. In our wo
 
 ## Requirements
 To run the code, you need the following dependencies:
-- Python == 3.7
-- PyTorch == 1.9.0
-- PyTorch Geometry == 2.0.3
-- rdkit == 2020.09.2
+- numpy == 1.21.6
+- Python == 3.7.13
+- PyTorch == 1.13.1+cu117
+- PyTorch Geometry == 2.3.0
+- rdkit == 2020.09.1
+- pandas == 1.3.5
+- scikit-learn == 1.0.2
+
+## 
