@@ -14,4 +14,7 @@ To run the code, you need the following dependencies:
 - pandas == 1.3.5
 - scikit-learn == 1.0.2
 
-## 
+## Step-by-step running
+- Firstly, you should use 'python cross-validation.py' to split the original DrugBank dataset.
+- Then, to specify various settings, such as sampling strategies and drug pair encoders, you will need to modify the 'train_config.py' file.
+- After modifying the parameters, you can use 'python train.py' to run the combination of drug encoders and sampling strategies.
