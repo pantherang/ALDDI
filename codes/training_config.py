@@ -2,7 +2,7 @@ def training_config():
     config = {}
     config['dataset'] = 'db'
     config['num_rels'] = 86    
-    # passive(random)  shannon(entropy)  most_likely_positive  k_center_greedy  BASE  MDC
+    # passive(random)  shannon(entropy)  most_likely_positive  k_center_greedy(Core-Set)  BASE  MDC(ours)
     config['strategy'] = 'passive' 
     # SA-DDI GMPNN SSI-DDI DSN-DDI DGNN-DDI
     config['encoder'] = 'SA-DDI'    
