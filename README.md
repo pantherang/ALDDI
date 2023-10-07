@@ -2,7 +2,8 @@
 
 ## Introduction
 We combine active learning with the multi-class DDIs prediction for the first time to reducing DDIs annotation costs while maintaining the models' performance. In our work, we propose a novel active sampling strategy named Margin-based Dynamic Cluster tailored for the DDIs datasets.
-<img width="1067" alt="截屏2023-09-29 10 33 16" src="https://github.com/pantherang/ALDDI/assets/49769931/42caa0a7-7fb8-49ff-bfa9-39be9f2991dc">
+![image](https://github.com/pantherang/ALDDI/assets/49769931/0a1642ae-ccbc-47ee-96fa-f8c9aa7e641b)
+
 
 ## Requirements
 To run the code, you need the following dependencies:
